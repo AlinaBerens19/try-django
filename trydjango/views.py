@@ -9,7 +9,7 @@ def home_view(request,id=None, *args, **kwargs):
     article_object = Articles.objects.get(id=random_id)
     article_title = article_object.title
     article_content = article_object.content
-
+    #########################################################
     article_list = Articles.objects.all()
     my_list = article_list
 
